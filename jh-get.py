@@ -1,7 +1,7 @@
 """
 A service that downloads a file to a user's jupyter instance and forwards the user's browser to the downloaded file.
 
-Call it with http://{jupyterhub_url}/services/get/?path={path to notebook dl}
+Call it with http://{jupyterhub_url}/services/jh-get/?path={path to notebook dl}
 """
 from getpass import getuser
 import os
